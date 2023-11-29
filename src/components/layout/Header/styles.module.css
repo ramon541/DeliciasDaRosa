@@ -1,0 +1,24 @@
+.wrapper {
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bgWhite {
+  background: white;
+}
+
+.dropShadow {
+  filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.2));
+}
+
+.flexLinks {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
