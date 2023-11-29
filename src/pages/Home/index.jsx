@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
+import styles from "./styles.module.css";
 import Button from "../../components/Button";
 import Footer from "../../components/layout/Footer";
 import Header from "../../components/layout/Header";
-import styles from "./styles.module.css";
+import Information from "../../components/Information";
+import Banner from "../../components/Banner";
+import ShowProducts from "../../components/ShowProducts";
 
 export default function Home() {
   return (
@@ -12,8 +15,12 @@ export default function Home() {
           <Button text="Login" />
         </Link>
       </Header>
-      <h1>Hello, world!</h1>
-      <h2>Here comes a nice content about bakery...</h2>
+      <Banner />
+      <div className={styles.content}>
+        <ShowProducts />
+        <hr style={{ margin: "1rem 0rem" }} />
+        <Information />
+      </div>
       <Footer />
     </div>
   );

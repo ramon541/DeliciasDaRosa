@@ -1,0 +1,38 @@
+.container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: url("./product.jpg") no-repeat center/cover;
+  width: 15rem;
+  height: 20rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.3s ease;
+}
+
+.container:hover::after {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  color: var(--bgWhite);
+  padding: 0.125rem 1rem;
+  background: var(--cyan);
+  border-radius: 100rem;
+}
+
+.description {
+  color: var(--bgWhite);
+}

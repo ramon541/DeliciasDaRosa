@@ -1,0 +1,15 @@
+.mapContainer {
+  margin-top: 1rem;
+  width: 40vw;
+  height: 40vh;
+  background: var(--bgWhite);
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.1);
+}
+
+.informationContainer {
+  display: flex;
+  align-items: start;
+  gap: 2rem;
+}

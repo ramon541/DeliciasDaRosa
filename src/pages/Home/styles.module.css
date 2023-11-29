@@ -1,3 +1,7 @@
 .container {
   background: var(--bgLight);
 }
+
+.content {
+  margin: 2rem;
+}
