@@ -1,0 +1,8 @@
+.hover {
+  color: var(--purple);
+  transition: 0.3s;
+}
+
+.hover:hover {
+  color: var(--pink);
+}

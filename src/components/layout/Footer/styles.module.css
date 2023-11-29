@@ -1,22 +1,17 @@
-.wrapper {
+.container {
   padding: 1.5rem 2rem;
   margin-top: 2rem;
-}
-
-.flexCenter {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
-}
-.img {
-  width: 4rem;
-  height: auto;
+  gap: 0.5rem;
+  background: var(--bgWhite);
 }
 
-.bgWhite {
-  background: white;
+.img {
+  width: 6rem;
+  height: auto;
 }
 
 .flexLinks {

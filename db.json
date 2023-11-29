@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "login": "admin",
+      "password": "admin",
+      "type": "adm",
+      "id": 1
+    },
+    {
+      "login": "user",
+      "password": "user",
+      "type": "usr",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "Pão de sal",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique tristique blandit. Donec mollis nunc sapien, sed vehicula dolor sollicitudin tincidunt.",
+      "quantity": 100,
+      "price": 19.99,
+      "img": "alow",
+      "id": 1
+    }
+  ]
+}

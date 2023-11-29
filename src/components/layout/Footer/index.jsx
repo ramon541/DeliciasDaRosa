@@ -1,26 +1,28 @@
 import styles from "./styles.module.css";
+import logo from "../../../assets/logo.png";
+
+import Icon from "../../Icon";
 
 export default function Footer() {
   return (
-    <div className={`${styles.wrapper} ${styles.flexCenter} ${styles.bgWhite}`}>
-      <img
-        className={styles.img}
-        width="100px"
-        height="200px"
-        src="./assets/logo.png"
-        alt="Logo Delícias da Rosa"
-      />
+    <footer className={`${styles.container}`}>
+      <a href="">
+        <img className={styles.img} src={logo} alt="Logo" />
+      </a>
       <div className={styles.flexLinks}>
-        <a href="https://wa.me/5534991100535" rel="noreferrer" target="_blank">
-          <i className="fa-brands fa-whatsapp"></i>
-        </a>
-        <a href="https://www.instagram.com" rel="noreferrer" target="_blank">
-          <i className="fa-brands fa-instagram"></i>
-        </a>
-        <a href="https://www.facebook.com" rel="noreferrer" target="_blank">
-          <i className="fa-brands fa-facebook"></i>
-        </a>
+        <Icon
+          link="https://wa.me/5534991100535"
+          icon="fa-brands fa-whatsapp fa-lg"
+        />
+        <Icon
+          link="https://www.instagram.com"
+          icon="fa-brands fa-instagram fa-lg"
+        />
+        <Icon
+          link="https://www.facebook.com"
+          icon="fa-brands fa-facebook fa-lg"
+        />
       </div>
-    </div>
+    </footer>
   );
 }

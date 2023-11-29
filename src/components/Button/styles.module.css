@@ -1,0 +1,14 @@
+.container {
+  padding: 0.25rem 1rem;
+  background: none;
+  border: 2px solid var(--cyan);
+  color: var(--cyan);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container:hover {
+  border: 2px solid var(--darkCyan);
+  color: var(--darkCyan);
+}

@@ -1,5 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
 
+:root {
+  --pink: #ff80aa;
+  --darkPink: #b45575;
+  --purple: #66263e;
+  --darkPurple: #411827;
+  --cyan: #5ccad6;
+  --darkCyan: #49a2ac;
+  --bgWhite: #ffffff;
+  --bgLight: #f9f9f9;
+  --bgMedium: #e2e2e2;
+  --bgDark: #c0c0c0;
+}
+
+input[type="password"]::-webkit-inner-spin-button,
+input[type="password"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="password"]::-ms-clear,
+input[type="password"]::-ms-reveal {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +33,9 @@
 
 body {
   width: 100%;
+  color: var(--purple);
 }
 
 a {
   text-decoration: none;
-  color: inherit;
 }
