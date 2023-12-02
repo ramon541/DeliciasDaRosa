@@ -7,14 +7,16 @@ export default function Card() {
       <div className={styles.title}>
         <h3>Produto</h3>
       </div>
-      <div className={styles.description}>
-        <p>
-          <strong>Descrição: </strong>Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Fuga, itaque.
-        </p>
-        <p>
-          <strong>Preço: </strong> R$ 9,99/kg
-        </p>
+      <div className={styles.blackout}>
+        <div className={styles.description}>
+          <p>
+            <strong>Descrição: </strong>Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Fuga, itaque.
+          </p>
+          <p>
+            <strong>Preço: </strong> R$ 9,99/kg
+          </p>
+        </div>
       </div>
     </div>
   );
